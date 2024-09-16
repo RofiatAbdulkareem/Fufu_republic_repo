@@ -82,4 +82,4 @@ c.
   - dining_option_id 
   - promotion_id
   - item_id
-
+[!  ERD_Diagram](Fufu_republic_repo/blob/main/ERD.png)](https://github.com/RofiatAbdulkareem/Fufu_republic_repo/blob/main/ERD.png))
