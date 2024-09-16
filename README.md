@@ -40,13 +40,13 @@ model (Any degree of abstraction is okay)
 1.
 
  **Entities**
-Customer
-Order
-Branch
-Payments
-Items 
-Promotion
-Stock
+- Customer
+- Order
+- Branch
+- Payments
+- Items 
+- Promotion
+- Stock
 
  **Relationships**
 - Customer places Order.
