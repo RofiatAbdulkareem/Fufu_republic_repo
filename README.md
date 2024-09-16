@@ -34,3 +34,52 @@ model (Any degree of abstraction is okay)
 ○ Identify a business process of your choice
 ○ List the business question under the business process you selected
 ○ Identify the grain, dimensions and fact.
+
+# Case Study Answers 
+
+1.
+
+ **Entities**
+Customer
+Order
+Branch
+Payments
+Items 
+Promotion
+Stock
+
+ **Relationships**
+- Customer places Order.
+- Order contains Item(s).
+- Order is made through a Branch.
+- Payment is linked to an Order.
+- Stock is related to Branch and Item.
+- Promotion is related to customer
+
+Constraints can be found in the ERD Diagram
+
+2. 
+a. Business Process
+The Business process of understanding sales trends across locations, payment methods, and dining options(dine-in, take-out, online).
+
+b. Business Questions 
+- What are the total sales by payment method and dining option (dine-in, take-out, online) for each branch?
+
+- Which menu items are the most popular at each branch for different dining options?
+
+- When are the busiest hours for sales, and how do these peak times affect stock at each branch?
+
+- How can we improve stock management by looking at previous sales trends?
+
+c. 
+- The grain is the indiidual order at a branch
+- The Dimension table is Customer, Branch, Payment, Items, Promotion,Stock
+- Fact table can be a sales table with 
+  - order_id 
+  - customer_id 
+  - branch_id 
+  - payment_method_id 
+  - dining_option_id 
+  - promotion_id
+  - item_id
+
